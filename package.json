@@ -1,0 +1,21 @@
+{
+    "name": "node-red-docker",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red.git"
+    },
+    "main": "node_modules/node-red/red/red.js",
+    "scripts": {
+      "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+    },
+    "author": "FabioM",
+    "license": "Apache-2.0",
+    "dependencies": {      
+        "node-red": "*"
+    },
+    "engines": {
+        "node": "*"
+    }
+  }
