@@ -17,7 +17,8 @@
         "node-red-contrib-telegrambot": "*",
         "node-red-node-twitter": "*",
         "node-red-contrib-ewelink": "*",
-        "node-red-contrib-ical-events": "*"
+        "node-red-contrib-ical-events": "*",
+        "node-red-node-sqlite": "*"
     },
     "engines": {
         "node": "*"
