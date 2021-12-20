@@ -13,5 +13,9 @@ COPY package.json .
 # Install json dependencies
 RUN npm install --unsafe-perm --no-update-notifier --no-fund 
 
+# Update all 
+RUN npm update
+RUN npm update -g
+
 # Start application
 CMD [ "npm", "start", "--", "--userDir", "/data" ]
