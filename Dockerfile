@@ -13,7 +13,7 @@ COPY package.json .
 # Install json dependencies
 RUN npm install --unsafe-perm --no-update-notifier --no-fund 
 
-# Update all 
+# Update all packages
 RUN npm update
 RUN npm update -g
 
