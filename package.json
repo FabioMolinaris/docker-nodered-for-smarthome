@@ -18,7 +18,8 @@
         "node-red-node-twitter": "*",
         "node-red-contrib-ewelink": "*",
         "node-red-contrib-ical-events": "*",
-        "node-red-node-sqlite": "*"
+        "node-red-node-sqlite": "*",
+        "node-red-contrib-nighttime": "*"
     },
     "engines": {
         "node": "*"
