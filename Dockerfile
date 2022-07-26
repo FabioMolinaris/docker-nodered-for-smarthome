@@ -14,6 +14,7 @@ RUN npm install node-red-contrib-ewelink
 RUN npm install node-red-contrib-ical-events
 RUN npm install node-red-node-sqlite
 RUN npm install node-red-contrib-nighttime
+RUN npm install ewelink-api
 
 # Update all packages
 RUN npm update
